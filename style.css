@@ -1,0 +1,173 @@
+html, body{
+    margin: 0;
+    font-family: Roboto,sans-serif;
+}
+
+header{
+    background: mintcream;
+    color: black; 
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+header li a{
+    float: left;
+    padding: 40px; 
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header li:hover{
+    background-color: #01AEEA;
+
+}
+
+#imagem_principal{
+    background: url("fundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 1;
+    
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 40px;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+}
+
+section{
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+li{
+    float: left;
+    padding: 10px; 
+    font-size: 16px;
+}
+
+.icones{
+    height: 80px;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.dois{
+    width: 40%;
+}
+
+.seis{
+    width: 29%;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+    font-size: 20px;
+}
+
+#sobre{
+    width: 100%;
+}
+
+#logo_ods{
+    width: 80%;
+    padding: 300 0 0 0 ;
+}
+
+footer{
+    background-color: #01AEEA;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+#img_oceano{
+    width: 30%;
+}
+
+#participe_1{ 
+    width: 50%;
+}
+
+h5{
+    text-align: center;
+    font-size: 14px;
+}
+
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .dois, .seis, .tres{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logo_div{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    #logo{
+        margin-left: 0px;
+        transform: translateX(-50%)
+    }
+
+    #imagem_participe{
+        text-align: center;
+    
+    }
+}
